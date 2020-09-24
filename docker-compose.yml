@@ -1,0 +1,100 @@
+# Dockerfile has been added in all micro-services, you need to dockerize all micro-services and add docker-compose.yml file
+version: '3'
+
+services:
+  UserAuthentication-Service:
+    image: userauthentication
+    build: UserAuthentication-Service/
+    restart: always
+    depends_on:
+      - mysqlDatabase
+    network_mode: host
+    ports:
+      - 9100:9100
+
+  UserService:
+    image: userservice
+    build: UserService/
+    restart: always
+    ports:
+      - 9200:9200
+    depends_on:
+      - mongoDatabase
+    network_mode: host
+
+  ReminderService:
+    image: reminderservice
+    build: ReminderService/
+    restart: always
+    ports:
+      - 9500:9500
+    depends_on:
+      - mongoDatabase
+    network_mode: host
+
+  NoteService:
+    image: noteservice
+    build: NoteService/
+    restart: always
+    ports:
+      - 9300:9300
+    depends_on:
+      - mongoDatabase
+    network_mode: host
+
+  CategoryService:
+    image: categoryservice
+    build: CategoryService/
+    restart: always
+    ports:
+      - 9400:9400
+    depends_on:
+      - mongoDatabase
+    network_mode: host
+
+
+  mysqlDatabase:
+    image: mysql:5.5
+    ports:
+      - 3306:3306
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: approot
+      MYSQL_PASSWORD: apppass
+      MYSQL_DATABASE: keepnote
+
+  zuulgateway:
+    image: zuulgateway
+    build: netflix-zuul-api-gateway-server/
+    restart: always
+    network_mode: host
+    depends_on:
+      - servicediscovery
+    ports:
+      - 8765:8765
+
+
+  keepwebapp:
+    image: keepwebapp
+    build: KeepNoteAngular/
+    network_mode: host
+    ports:
+      - 8080:8080
+
+
+  servicediscovery:
+    image: servicediscovery
+    build: netflix-eureka-naming-server/
+    restart: always
+    network_mode: host
+    ports:
+      - 8761:8761
+
+  mongoDatabase:
+    image: mongo:3.2-jessie
+    ports:
+      - 27017:27017
+    network_mode: host
+
+

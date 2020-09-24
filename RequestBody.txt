@@ -1,0 +1,34 @@
+{
+    "id" : "1",
+    "categoryName" : "fjbhv",
+    "categoryDescription" : "kdfdkjgk",
+    "categoryCreatedBy" : "sowmi"
+}
+
+{
+    "userId" : "1",
+    "userName": "j",
+    "userPassword" : "jsfhjfh",
+    "userMobile" : "0999999"
+}
+
+{
+    "reminderId" : "1",
+    "reminderName" : "j",
+    "reminderDescription" : "jsfhjfh",
+    "reminderType" : "jdhf",
+    "reminderCreatedBy" : "sowmi" 
+}
+
+{
+    "userId" : "lavi",
+    "userPassword" : "lavi"
+}
+
+{
+    "noteId" : 3,
+    "noteTitle" : "d",
+    "noteContent" : "skjhfk",
+    "noteStatus" : "djhj",
+    "noteCreatedBy" : "sowmi"
+}

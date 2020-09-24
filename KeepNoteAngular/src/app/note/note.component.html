@@ -1,0 +1,9 @@
+<mat-card class="note-card" (click)="editNote()">
+    <mat-card-header>
+        <mat-card-title>{{note.noteId}} | {{note.noteTitle}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="card-content">
+        <p>{{note.noteContent}}</p>
+        <p>{{note.noteStatus}}</p>
+    </mat-card-content>
+</mat-card>

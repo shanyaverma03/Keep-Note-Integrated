@@ -1,0 +1,8 @@
+1.change java version to 11 in parent pom and remove versions from child poms
+2. Remove ribbon annotations and its dependencies
+3. Remove jackson dependency
+4. Change cloud version in parent pom to Hoxton.SR8
+5. Comment out @Component/ delete zuulloggingfilter
+6. Change spring boot version to 2.3.3
+7. Remove any unwanted dependencies like loadbalancer, openfeign, ribbon etc..
+

@@ -1,0 +1,7 @@
+
+M
+java:S1481!"+Remove this unused "claims" local variable.(»Õ‰İûÿÿÿÿ8õ ¸ÑÉ.
+\
+java:S1854!":Remove this useless assignment to local variable "claims".(»Õ‰İûÿÿÿÿ8õ ¸ÑÉ.
+e
+java:S2259"HA "NullPointerException" could be thrown; "authHeader" is nullable here.(à­â8õ ¸ÑÉ.

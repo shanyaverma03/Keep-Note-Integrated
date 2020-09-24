@@ -1,0 +1,26 @@
+
+Q
+java:S3740Y"/Provide the parametrized type for this generic.(ä—Ñ«ùÿÿÿÿ8ÿÅ¶ÔÈ.
+Q
+java:S3740F"/Provide the parametrized type for this generic.(ÅàçÄúÿÿÿÿ8ÿÅ¶ÔÈ.
+Q
+java:S3740d"/Provide the parametrized type for this generic.(éÜú÷ıÿÿÿÿ8ÿÅ¶ÔÈ.
+Z
+java:S1854o"8Remove this useless assignment to local variable "user".(§†¤ úÿÿÿÿ8ÿÅ¶ÔÈ.
+L
+java:S3740B"/Provide the parametrized type for this generic.(ÖµÊ‚8ÿÅ¶ÔÈ.
+b	java:S112v"FDefine and throw a dedicated exception instead of using a generic one.(î’²”8ÿÅ¶ÔÈ.
+K
+java:S3740+"/Provide the parametrized type for this generic.(“¹ì28ÿÅ¶ÔÈ.
+L
+java:S3740D"/Provide the parametrized type for this generic.(„’8ÿÅ¶ÔÈ.
+L
+java:S3740b"/Provide the parametrized type for this generic.(Íˆ‰ß8ÿÅ¶ÔÈ.
+K
+java:S1481o")Remove this unused "user" local variable.(§†¤ úÿÿÿÿ8ÿÅ¶ÔÈ.
+L
+java:S3740?"/Provide the parametrized type for this generic.(­Ø£ï8ÿÅ¶ÔÈ.
+b	java:S112l"FDefine and throw a dedicated exception instead of using a generic one.(ÊØ»ş8ÿÅ¶ÔÈ.
+y
+java:S1450+"]Remove the "responseEntity" field and declare it as a local variable in the relevant methods.(“¹ì28ÿÅ¶ÔÈ.
+b	java:S112i"FDefine and throw a dedicated exception instead of using a generic one.(Ö˜ˆã8ÿÅ¶ÔÈ.

@@ -1,0 +1,32 @@
+form{
+    margin: 10vh auto;
+    width: 30vw;
+    display: flex;
+    flex-flow: column;
+}
+
+.login-expansion{
+    margin: 10vh auto;
+    width: 50vw;
+}
+
+input{
+    width: 20vw;
+}
+
+button{
+    margin-left:auto;
+}
+
+.error-border{
+    border-bottom-color: red;
+}
+
+.error-message{
+
+    color: red;
+}
+
+.error-hide{
+    display: none;
+}

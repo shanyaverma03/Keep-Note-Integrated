@@ -1,0 +1,14 @@
+.notes-form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: fit-content;
+    margin-left: auto;
+}
+
+.notes-expansion{
+    margin: auto;
+    width: 50vw;
+}
